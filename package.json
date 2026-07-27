@@ -1,0 +1,26 @@
+{
+  "name": "@jhad-dev/shamy",
+  "version": "1.1.0",
+  "description": "Automated QR authentication and payment verification library for ShamCash.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shamcash",
+    "syria",
+    "qr-code",
+    "automation",
+    "payment-verification",
+    "websocket",
+    "apishamcash"
+  ],
+  "author": "Jhad <dnsdbs@proton.me>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "node-forge": "^1.3.3",
+    "qrcode-terminal": "^0.12.0",
+    "ws": "^8.19.0"
+  }
+}
